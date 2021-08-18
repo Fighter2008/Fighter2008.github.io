@@ -6,16 +6,33 @@
   margin-bottom: 0;
   margin-right: auto;
   margin-left: auto;
+  animation-duration: 1000ms;
 }
 
 .u-section-1 .u-text-2 {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0;
+  animation-duration: 1000ms;
 }
 
 .u-section-1 .u-text-3 {
   margin-left: 0;
   margin-right: auto;
   margin-bottom: 60px;
+  animation-duration: 1000ms;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-text-1 {
+    text-decoration: none solid rgb(17, 17, 17);
+  }
+
+  .u-section-1 .u-text-2 {
+    text-decoration: none solid rgb(17, 17, 17);
+  }
+
+  .u-section-1 .u-text-3 {
+    text-decoration: none solid rgb(17, 17, 17);
+  }
 }
